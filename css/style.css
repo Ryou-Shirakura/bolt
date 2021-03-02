@@ -10,6 +10,7 @@
   background-color: white;
   height: 70px;
   width: 100%;
+  z-index: 500;
 }
 .bolt-icon {
   font-size: 2.5em;
@@ -33,9 +34,8 @@
 .btn-contact:hover {
   color: #333;
 }
-.title {
+.theme--title {
   background-color: #f2f2f2;
-  width: 100%;
 }
 .title-inner {
   padding: 250px 0 250px 0;
@@ -54,7 +54,6 @@
 }
 .iphone {
   background-color: #74cfae;
-  width: 100%;
 }
 .iphone--section {
   display: flex;
@@ -83,7 +82,6 @@
 }
 .our--latest--work {
   background-color: #f2f2f2;
-  width: 100%;
 }
 
 .our--latest--work--title {
@@ -95,36 +93,106 @@
 .our--latest--work--picture {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  /* align-content: space-between; */
-  /* height: 680px; */
   opacity: 0.7;
 }
 
 .our--latest--work--picture img {
-  margin-top: 80px;
+  margin: 80px 0 0 100px;
+}
+.our--latest--work--picture:hover {
+  opacity: 1.0;
 }
 
 .our--latest--work--picture img:nth-child(-n+3) {
   margin-top: 0;
 }
+.our--latest--work--picture img:nth-child(3n+1) {
+  margin-left: 0;
+}
 .our--latest--work--text {
   display: flex;
-  padding: 90px 0 70px 0;
   justify-content: center;
+  align-items: flex-start;
+  padding: 90px 0 70px 0;
 }
 .our--latest--work--text--sentence {
   text-align: center;
-  margin-right: 90px;
   font-family: Lato, sans-serif;
+  margin-right: 90px;
 }
 .btn-Email {
   display: inline-block;
-  padding: 14px 20px;
   background-color: #74cfae;
   color: white;
   text-decoration: none;
-  transform: 0.3s;
   font-size: 12px;
+  padding: 14px 20px ;
+  transform: 0.3s;
+}
+
+.btn-Email:hover {
+  color: #333;
+}
+.our--skills {
+  background-color: #4e4e4e;
+}
+
+.our--skills--title {
+  padding: 70px 0 70px 0;
+  font-family: Raleway, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+.our--skills--pic_frame {
+  display: inline-block;
+  color: white;
+  margin-left: 180px;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+.our--skills--pic_frame:first-child {
+  margin-left: 0;
+}
+.SNS {
+  background-color: #f2f2f2;
+}
+.SNS--inner {
+  text-align: center;
+}
+.SNS-icon {
+  padding: 180px 0 180px 0;
+  color: #74cfae;
+}
+.SNS-icon-content {
+  display: inline-block;
+  font-size: 40px;
+  transform: 0.3s;
+  padding: 20px 72.5px;
+  cursor: pointer;
+}
+.facebook-icon {
+  padding: 20px 80px
+}
+
+.facebook-icon:hover {
+  background-color: white;
+}
+.dribbble-icon:hover {
+  background-color: white;
+}
+.twitter-icon:hover {
+  background-color: white;
+}
+.envelope-icon:hover {
+  background-color: white;
+}
+.footer--text {
+  background-color: #74cfae;
+  font-size: 12px;
+  text-align: end;
+  padding: 20px 0 25px 0;
+  color: white;
 }
 
