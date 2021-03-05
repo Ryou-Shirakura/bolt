@@ -41,12 +41,12 @@
   font-size: 90px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 20px;
 }
 .sab--title {
   color: #c0c0c0;
   text-align: center;
   font-size: 30px;
+  margin-top: 20px;
 }
 .iphone {
   background-color: #74cfae;
@@ -70,13 +70,13 @@
 .iphone--section--text--title {
   font-family: Raleway, sans-serif;
   font-size: 24px;
-  margin-bottom: 35px;
   
 }
 
 .iphone--section--text--sentence {
   font-family: Lato, sans-serif;
   font-size: 20px;
+  margin-top: 35px;
 }
 .our--latest--work {
   background-color: #f2f2f2;
@@ -88,18 +88,19 @@
   font-family: Raleway, sans-serif;
   font-size: 24px;
   text-align: center;
-  padding-bottom: 40px;
 }
 .our--latest--work--picture {
   display: flex;
   flex-wrap: wrap;;
   transition: 0.3;
+  margin-top: 40px;
 }
 
 .our--latest--work--pic_frame {
   display: inline-block;
   margin: 80px 0 0 100px;
-  opacity: 0.7
+  opacity: 0.7;
+  transition: 0.3s;
 }
 .our--latest--work--pic_frame--iphone:hover {
   opacity: 1.0;
@@ -130,12 +131,11 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 90px;
+  margin-top: 90px;
 }
 .our--latest--work--text--sentence {
   text-align: center;
   font-family: Lato, sans-serif;
-  margin-right: 90px;
 }
 .btn-Email {
   display: inline-block;
@@ -144,7 +144,8 @@
   text-decoration: none;
   font-size: 12px;
   padding: 14px 20px ;
-  transform: 0.3s;
+  transition: 0.3s;
+  margin-left: 90px;
 }
 
 .btn-Email:hover {
@@ -156,13 +157,13 @@
 }
 
 .our--skills--title {
-  padding-bottom: 70px;
   font-family: Raleway, sans-serif;
   color: white;
   text-align: center;
   font-size: 24px;
 }
 .our--skills--picture {
+  margin-top: 70px;
   display: flex;
   justify-content: space-between
 }
@@ -174,6 +175,7 @@
 
 .our--skills--picture--text {
   margin-top: 10px;
+  text-align: center;
 }
 .SNS {
   background-color: #f2f2f2;
@@ -193,7 +195,8 @@
   cursor: pointer;
 }
 .facebook-icon {
-  padding: 20px 80px
+  padding: 20px 80px;
+  transition: 0.3s;
 }
 
 .facebook-icon:hover {
@@ -210,11 +213,11 @@
 }
 .footer {
   background-color: #74cfae;
+  padding: 20px 0 25px 0;
 }
 .footer--text {
   font-size: 12px;
   text-align: end;
-  padding: 20px 0 25px 0;
   color: white;
 }
 
