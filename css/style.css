@@ -5,10 +5,12 @@
   padding: 15px 0 15px 0;
   z-index: 500;
 }
+
 .header-inner {
   display: flex;
   justify-content: space-between;
 }
+
 .inner {
   margin: 0 auto;
   width: 1100px;
@@ -18,6 +20,7 @@
   font-size: 2.5em;
   color: #808080;
 }
+
 .btn-contact {
   padding: 14px 12px;
   background-color: #74cfae;
@@ -25,16 +28,20 @@
   text-decoration: none;
   transition: 0.3s;
 }
+
 .btn-contact:hover {
   color: #333;
 }
+
 .main--content {
   padding-top: 74px;
 }
+
 .theme--title {
   background-color: #f2f2f2;
   padding: 250px 0 250px 0;
 }
+
 .main--title {
   font-family: Raleway, sans-serif;
   color: #74cfae;
@@ -42,20 +49,24 @@
   font-weight: 700;
   text-align: center;
 }
+
 .sab--title {
   color: #c0c0c0;
   text-align: center;
   font-size: 30px;
   margin-top: 20px;
 }
+
 .iphone {
   background-color: #74cfae;
   padding-top: 50px;
 }
+
 .iphone--section {
   display: flex;
   justify-content: space-around;
 }
+
 .iphone--section--picture {
   margin: 0 auto;
   font-size: 0;
@@ -67,6 +78,7 @@
   color: white;
   text-align: center;
 }
+
 .iphone--section--text--title {
   font-family: Raleway, sans-serif;
   font-size: 24px;
@@ -89,6 +101,7 @@
   font-size: 24px;
   text-align: center;
 }
+
 .our--latest--work--picture {
   display: flex;
   flex-wrap: wrap;
@@ -102,25 +115,31 @@
   opacity: 0.7;
   transition: 0.3s;
 }
+
 .our--latest--work--picture li:hover {
   opacity: 1.0;
 }
+
 .our--latest--work--picture li:nth-child(-n+3) {
   margin-top: 0;
 }
+
 .our--latest--work--picture li:nth-child(3n+1) {
   margin-left: 0;
 }
+
 .our--latest--work--text {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   margin-top: 90px;
 }
+
 .our--latest--work--text--sentence {
   text-align: center;
   font-family: Lato, sans-serif;
 }
+
 .btn-Email {
   display: inline-block;
   background-color: #74cfae;
@@ -135,6 +154,7 @@
 .btn-Email:hover {
   color: #333;
 }
+
 .our--skills {
   background-color: #4e4e4e;
   padding: 70px 0 100px 0;
@@ -146,43 +166,56 @@
   text-align: center;
   font-size: 24px;
 }
+
 .our--skills--picture {
   margin-top: 70px;
   display: flex;
   justify-content: space-between
 }
+
 .our--skills--picture--text {
   margin-top: 10px;
   text-align: center;
   color: white;
 }
+
 .SNS {
   background-color: #f2f2f2;
 }
+
 .SNS--inner {
   text-align: center;
 }
+
 .SNS-icon {
   padding: 180px 0 180px 0;
 }
+
 .SNS-icon li {
   display: inline-block;
   font-size: 40px;
   transform: 0.3s;
   padding: 20px 72.5px;
-  color: #74cfae;
   cursor: pointer;
 }
+
+.SNS-icon-content {
+  color: #74cfae;
+}
+
 .SNS-icon li:first-child {
   padding: 20px 80px;
 }
+
 .SNS-icon li:hover {
   background-color: white;
 }
+
 .footer {
   background-color: #74cfae;
   padding: 20px 0 25px 0;
 }
+
 .footer--text {
   font-size: 12px;
   text-align: end;
