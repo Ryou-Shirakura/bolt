@@ -1,3 +1,15 @@
+.a {
+  display: inline-block;
+}
+
+.img {
+  vertical-align: bottom;
+}
+
+.body {
+  font-family: Lato, sans-serif;
+}
+
 .header {
   position: fixed;
   background-color: white;
@@ -77,6 +89,7 @@
   margin-top: 20px;
   color: white;
   text-align: center;
+  width: 647px;
 }
 
 .iphone--section--text--title {
@@ -86,7 +99,6 @@
 }
 
 .iphone--section--text--sentence {
-  font-family: Lato, sans-serif;
   font-size: 20px;
   margin-top: 35px;
 }
@@ -110,7 +122,6 @@
 }
 
 .our--latest--work--picture li {
-  display: inline-block;
   margin: 80px 0 0 100px;
   opacity: 0.7;
   transition: 0.3s;
@@ -128,6 +139,11 @@
   margin-left: 0;
 }
 
+.our--latest--work--picture li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
 .our--latest--work--text {
   display: flex;
   justify-content: center;
@@ -137,7 +153,7 @@
 
 .our--latest--work--text--sentence {
   text-align: center;
-  font-family: Lato, sans-serif;
+  width: 460px;
 }
 
 .btn-Email {
@@ -181,31 +197,36 @@
 
 .SNS {
   background-color: #f2f2f2;
+  padding: 180px 0 180px 0;
 }
 
 .SNS--inner {
   text-align: center;
 }
-
 .SNS-icon {
-  padding: 180px 0 180px 0;
+  display: flex;
+  justify-content: center;
 }
-
 .SNS-icon li {
   display: inline-block;
   font-size: 40px;
-  transform: 0.3s;
-  padding: 20px 72.5px;
+  transition: 0.3s;
   cursor: pointer;
+
+}
+
+.SNS-icon li a {
+  display: block;
+  padding: 20px 72.5px;
+}
+.SNS-icon li:first-of-type a {
+  padding: 20px 80px;
 }
 
 .SNS-icon-content {
   color: #74cfae;
 }
 
-.SNS-icon li:first-child {
-  padding: 20px 80px;
-}
 
 .SNS-icon li:hover {
   background-color: white;
