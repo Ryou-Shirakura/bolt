@@ -12,9 +12,9 @@
 
 .header {
   position: fixed;
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%;
-  padding: 15px 0 15px 0;
+  padding: 15px 0;
   z-index: 500;
 }
 
@@ -36,7 +36,7 @@
 .btn-contact {
   padding: 14px 12px;
   background-color: #74cfae;
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -51,7 +51,7 @@
 
 .theme--title {
   background-color: #f2f2f2;
-  padding: 250px 0 250px 0;
+  padding: 250px 0;
 }
 
 .main--title {
@@ -86,8 +86,8 @@
 
 .iphone--section--text{
   display: inline-block;
-  margin-top: 20px;
-  color: white;
+  padding-top: 20px;
+  color: #FFFFFF;
   text-align: center;
   width: 647px;
 }
@@ -117,7 +117,6 @@
 .our--latest--work--picture {
   display: flex;
   flex-wrap: wrap;
-  transition: 0.3;
   margin-top: 40px;
 }
 
@@ -159,7 +158,7 @@
 .btn-Email {
   display: inline-block;
   background-color: #74cfae;
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   font-size: 12px;
   padding: 14px 20px ;
@@ -178,7 +177,7 @@
 
 .our--skills--title {
   font-family: Raleway, sans-serif;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   font-size: 24px;
 }
@@ -192,20 +191,16 @@
 .our--skills--picture--text {
   margin-top: 10px;
   text-align: center;
-  color: white;
+  color: #FFFFFF;
 }
 
 .SNS {
   background-color: #f2f2f2;
-  padding: 180px 0 180px 0;
+  padding: 180px 0;
 }
 
 .SNS--inner {
   text-align: center;
-}
-.SNS-icon {
-  display: flex;
-  justify-content: center;
 }
 .SNS-icon li {
   display: inline-block;
@@ -229,7 +224,7 @@
 
 
 .SNS-icon li:hover {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .footer {
@@ -239,7 +234,7 @@
 
 .footer--text {
   font-size: 12px;
-  text-align: end;
-  color: white;
+  text-align: right;
+  color: #FFFFFF;
 }
 
