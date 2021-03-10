@@ -1,9 +1,15 @@
-.a {
+@charset "utf-8";
+
+a {
   display: inline-block;
 }
 
-.img {
+img {
   vertical-align: bottom;
+}
+
+.is-raleway {
+  font-family: Raleway;
 }
 
 .body {
@@ -12,6 +18,8 @@
 
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
   background-color: #FFFFFF;
   width: 100%;
   padding: 15px 0;
@@ -55,7 +63,6 @@
 }
 
 .main--title {
-  font-family: Raleway, sans-serif;
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
@@ -93,7 +100,6 @@
 }
 
 .iphone--section--text--title {
-  font-family: Raleway, sans-serif;
   font-size: 24px;
   
 }
@@ -109,7 +115,6 @@
 }
 
 .our--latest--work--title {
-  font-family: Raleway, sans-serif;
   font-size: 24px;
   text-align: center;
 }
@@ -176,7 +181,6 @@
 }
 
 .our--skills--title {
-  font-family: Raleway, sans-serif;
   color: #FFFFFF;
   text-align: center;
   font-size: 24px;
@@ -207,15 +211,12 @@
   font-size: 40px;
   transition: 0.3s;
   cursor: pointer;
-
+  width: 185px;
 }
 
 .SNS-icon li a {
-  display: block;
-  padding: 20px 72.5px;
-}
-.SNS-icon li:first-of-type a {
-  padding: 20px 80px;
+  padding: 20px 0;
+  width: 100%;
 }
 
 .SNS-icon-content {
